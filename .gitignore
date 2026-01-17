@@ -17,6 +17,7 @@ backend/tmp/
 
 # --- IDE / System ---
 .vscode/
+*.db
 .idea/
 .DS_Store
 *.suo
