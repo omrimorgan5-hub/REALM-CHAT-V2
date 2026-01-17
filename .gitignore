@@ -1,0 +1,33 @@
+# --- Node / Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/npm-debug.log*
+
+# --- Go / Backend ---
+backend/bin/
+backend/*.exe
+backend/*.exe~
+backend/*.dll
+backend/*.so
+backend/*.dylib
+# If you use a tool like 'air' for live reloading
+backend/tmp/
+
+# --- IDE / System ---
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Local Environment (Crucial for your setup) ---
+# This prevents accidentally committing your portable engines 
+# if you ever put them inside the project folder
+LocalDev/
+node_modules/
+dist/
