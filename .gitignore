@@ -24,10 +24,9 @@ backend/tmp/
 *.njsproj
 *.sln
 *.sw?
+shared-lib
 
-# --- Local Environment (Crucial for your setup) ---
-# This prevents accidentally committing your portable engines 
-# if you ever put them inside the project folder
+
 LocalDev/
 node_modules/
 dist/
